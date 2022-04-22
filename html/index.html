@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../style/navbar.css">
 </head>
 <body>
-    <h1>Hello from TypeScript</h1>
-    <!--Heyo just testing-->
-    <!--More testing-->
+    <nav class="navbar">
+        <a href="#" class="logo">LOGO</a>
+        <input type="checkbox" id="toggler" class="toggler">
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <script src="./dist/renderer/main.js" defer></script>
 </body>
 </html>
