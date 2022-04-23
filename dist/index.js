@@ -5,7 +5,7 @@ let mainWindow;
 electron_1.app.on('ready', createWindow);
 function createWindow() {
     mainWindow = new electron_1.BrowserWindow({
-        width: 800, height: 700,
+        width: 600, height: 700,
         webPreferences: {
             preload: __dirname + "/preload.js"
         },

@@ -1,50 +1,34 @@
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 15px;
+body{
+    margin-top:20px;
+    background:#FAFAFA;    
+}
+/*==================================================
+  Nearby People CSS
+  ==================================================*/
+
+.people-nearby .google-maps{
+  background: #f8f8f8;
+  border-radius: 4px;
+  border: 1px solid #f1f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: inherit;
+.people-nearby .google-maps .map{
+  height: 300px;
+  width: 100%;
+  border: none;
 }
 
-.logo{
-    margin-right: 50px;
-    display: flex;
-    gap: 25px;
+.people-nearby .nearby-user{
+  padding: 20px 0;
+  border-top: 1px solid #f1f2f2;
+  border-bottom: 1px solid #f1f2f2;
+  margin-bottom: 20px;
 }
 
-#toggler,
-.navbar label{
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-    margin-left: 60vw;
-}
-@media screen and 
-(max-width: 600px){
-    .menu{
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-    }
-
-    .list{
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .navbar label{
-        display: inline-flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    #toggler:checked ~ .menu{
-        max-height: 100%;
-    }
+img.profile-photo-lg{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
 }
